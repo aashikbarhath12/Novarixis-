@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Nebular" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/nebular_dark_background</item>
+        <item name="android:statusBarColor">@color/nebular_dark_background</item>
+        <item name="android:navigationBarColor">@color/nebular_dark_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+    </style>
+</resources>
